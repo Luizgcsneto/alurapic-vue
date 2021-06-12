@@ -2,6 +2,8 @@
   <div id="app">
     <img src="./assets/logo.png">
     <h1>{{ msg }}</h1>
+    <h1>{{ msg }}</h1>
+    <h1>{{ msg3 }}</h1>
     <h2>Links essenciais</h2>
     <ul>
       <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
@@ -24,7 +26,9 @@ export default {
   name: 'app',
   data () {
     return {
-      msg: 'Bem vindo ao curso de Vue'
+      msg: 'Bem vindo ao curso de Vue',
+      msg2: 'mensagem dois',
+      msg3: 'mensagem três'
     }
   }
 }
